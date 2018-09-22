@@ -26,6 +26,9 @@ From the original request on RentACoder:
 
 The idea is that I can run with it for the dozen or so total pages I really need.
 
+# Images
+I've uploaded into the Images directory some photos. Some are better than others. They're all photos I've taken. I'll acquire more, but if you're looking for some images for the initial photo carousel, there are some choices there to consider. They aren't great, but maybe a few are nice.
+
 # The Original RFP
 This is what I posted to RentACoder (with a tiny edit changing reactive to responsive):
 
