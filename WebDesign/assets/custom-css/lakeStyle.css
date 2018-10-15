@@ -1,0 +1,345 @@
+/* blue :
+rgb(0,168,243) */
+/* green :
+rgb(92,154,3) */
+	
+*{
+	font-family:arial; /*font family for whole page data*/
+}
+
+body{
+	margin:0;
+}
+
+					/*for background and text color */
+.back-green{
+	background:rgb(92,154,3) !important;
+}
+.back-green-transparent{
+	background:rgb(92,154,3,.7) !important;
+}
+.back-blue{
+	background:rgb(0,168,243) !important;
+}
+.back-blue-transparent{
+	background:rgb(0,168,243,.7) !important;
+}
+.back-white-transparent{
+	background:rgb(246,246,246,.7);
+}
+.back-white{
+	background:rgb(246,246,246);
+}
+.text-green{
+	color:rgb(92,154,3);
+}
+.text-blue{
+	color:rgb(0,168,243);
+}
+.text-white{
+	color:#fff;
+}
+
+
+					/* navbar alignment*/
+
+.lake-nav{
+	-webkit-border-radius:0;
+	        border-radius:0; /*remove bootstrap css */
+	border:none; /*remove bootstrap css */
+	padding-top:3px;
+	padding-bottom:3px;
+}
+
+	/* navbar button style */
+.lake-nav .icon-bar{
+	background-color:#fff;
+	margin-bottom:7px;
+	width:27px;
+}
+
+	/* these properties for text logo not for image logo*/ 
+.lake-nav .navbar-brand{
+	color:#fff;
+	font-size:25px;
+	font-weight:bold;
+	font-family:AlKatib;
+	letter-spacing:3px;
+	padding-top:0;
+}
+
+	/* for image logo after adding img tag in html  */
+.lake-nav .navbar-brand img{
+	width:50px;
+	height:50px;
+}
+
+	/* navbar links color  */
+.lake-nav ul li a{
+	color:#fff !important;
+	letter-spacing:1px;
+}
+.lake-nav ul li a:hover{
+	background-color:green;
+}
+.lake-nav ul li a:focus{
+	background-color:green;
+}
+
+	/* navbar links border effect on hover */
+.lake-nav ul li a:after{
+	content:"";
+	display:block;
+	width:100%;
+	height:1px;
+	background:white;
+	-webkit-transition:all .3s;
+	-o-transition:all .3s;
+	transition:all .3s;
+}
+.lake-nav ul li a:hover:after{
+	width:0%;
+}
+
+					/* carousel */
+.lake-carousel{
+	
+	/* position:fixed; */
+	/* top:55px; */
+	/* left:0; */
+	/* z-index:-2; */
+
+	width:100%;
+}
+.lake-carousel img{
+	/* for carousel height */
+	width:100% !important;
+	height:610px !important;
+}
+
+					/* leaf body */
+.lake-leaf-body{
+	background:url(../../img/blurpattern.jpg) fixed;
+	/* margin-top:620px; */
+	/* padding-top:40px; */
+}
+
+.lake-heading{
+	margin-top:30px;
+	margin-bottom:40px;
+	font-size:40px;
+	color:#fff;
+	font-weight:bold;
+}
+
+ 					/* card style */
+
+.lake-card{
+	background:#fff;
+	-webkit-border-radius:5px;
+	        border-radius:5px;
+	border:solid #fff 1px;
+	overflow:hidden !important;
+	margin-bottom:15px;
+	position:relative;
+}
+.lake-card img{
+	width:100%;
+}
+.lake-card .card-body{
+	padding-top:15px;
+	padding-bottom:18px;
+}
+.lake-card .card-body a{
+	color:#fff;
+}
+.lake-card:after{
+	content:"";
+	display:block;
+	background:rgb(0,168,243);
+	width:100px;
+	height:130px;
+	position:absolute;
+	bottom:-60px;
+	right:-34px;
+	-webkit-transform:rotate(230deg);
+		-ms-transform:rotate(230deg);
+	    transform:rotate(230deg);
+	z-index:1;
+}
+.lake-card:before{
+	content:"";
+	display:block;
+	/* background:rgb(0,168,243,.8); */
+	background:rgb(0,168,243);
+	width:100px;
+	height:130px;
+	position:absolute;
+	top:-61px;
+	left:-34px;
+	-webkit-transform:rotate(230deg);
+	        -ms-transform:rotate(230deg);
+	    transform:rotate(230deg);
+	z-index:1;
+}
+							/* //card style */
+
+
+							/* Places */
+.place1{
+		/* image */
+	background:url(../../img/back1.jpg) ; 
+	-webkit-background-size:100% 100%; 
+	        background-size:100% 100%;
+	/* for height */
+	padding-top:146px;
+	padding-bottom:147px;
+}
+.place1:after{
+	display:block;
+	content:"";
+	background:rgb(0,168,243)	;
+	width:50px;
+	height:50px;
+	position:absolute;
+	right:-25px;
+	top:42%;
+	-ms-transform:rotate(231deg);
+	    transform:rotate(231deg);
+	-webkit-transform:rotate(224deg);
+}
+.place2{
+	background:url(../../img/card5.jpeg) ;
+	-webkit-background-size:100% 100%;
+	        background-size:100% 100%;
+	padding-top:146px;
+	padding-bottom:147px;
+}
+.place2:after{
+	display:block;
+	content:"";
+	background:rgb(92,154,3) ;
+	width:50px;
+	height:50px;
+	position:absolute;
+	left:-25px;
+	top:42%;
+	-ms-transform:rotate(231deg);
+	    transform:rotate(231deg);
+	-webkit-transform:rotate(224deg);
+}
+.place-cont{
+	/* height */
+	padding-top:120px;
+	padding-bottom:120px;
+	z-index:1;
+}
+.place-cont p,h2{
+	padding:0;
+	margin:0;
+}
+							/* //Places */
+
+
+@media screen and (max-width:768px){
+	.place1:after{
+		left:45%;
+		top:268px;
+		z-index:0;
+	}
+	.place2:after{
+		left:45%;
+		top:-24px;
+		z-index:0;
+	}
+	
+}
+
+
+.lake-overlay {
+	background:rgba(250,250,250,.7);
+	position:absolute;
+	top:20px;
+	left:5%;
+	width:90%;
+}
+.lake-overlay p{
+	font-size:20px;
+}
+
+
+					/* counter */
+.lake-counter{
+	background:url(../../img/blurcounter.jpg) no-repeat fixed;
+
+	-webkit-background-size:100% 140%;
+	        background-size:100% 140%;
+	margin-top:40px;
+}
+.lake-counter-layer{
+	/* background:rgb(0,168,243,.4); */
+	padding-bottom:80px;
+	padding-top:80px;
+}
+
+				/* footer */
+
+.lake-footer{
+	padding-top:50px;
+	padding-bottom:40px;
+	background:rgb(0,123,255);
+}
+.lake-footer ul li{
+	margin-left:22px;
+}
+.lake-footer ul li i{
+	font-size:25px;
+	color:#fff;
+	-webkit-transition:all .5s;
+	-o-transition:all .5s;
+	transition:all .5s;
+}
+.lake-footer ul li:hover i{
+	color:green;
+	-webkit-transform:rotateY(360deg);
+	        transform:rotateY(360deg);
+}
+
+
+
+					/* additional css */
+
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(0,168,243)
+	
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(92,154,3); 
+}
+
+
+::-moz-selection { /* Code for Firefox */
+    color: red;
+    background: yellow;
+}
+::-webkit-selection { /* Code for Safari */
+    color: red;
+    background: yellow;
+}
+
+::selection {
+  background:rgb(92,154,3) ; 
+    color:#fff;
+}

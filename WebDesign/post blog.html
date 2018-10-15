@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Blog Detail</title>
+
+	<!-- icon -->
+	<link href="img/icon.png" rel="icon"/>
+
+	<!-- bootstrap css -->
+	<link href="assets/bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
+	<!-- fontawesome for icons -->
+	<link href="assets/fontawesome/css/all.css" rel="stylesheet"/>
+	<!-- for scroll animation -->
+	<link href="assets/aos-master/dist/aos.css" rel="stylesheet"/>
+				
+	<!-- popular places carousel css --> 
+	<link href="assets/OwlCarousel/dist/owl.carousel.min.css" rel="stylesheet"/>
+	<link href="assets/OwlCarousel/dist/owl.theme.default.min.css" rel="stylesheet"/>
+
+	<!-- froala_editor --> 
+	<link href="assets/froala_editor/css/froala_editor.pkgd.css" rel="stylesheet"/>
+	<link href="assets/froala_editor/css/froala_style.min.css" rel="stylesheet"/>
+
+	<!-- custom css --> 
+	<link href="assets/custom-css/blogStyle.css" rel="stylesheet"/>
+	<link href="assets/custom-css/lakeStyle.css" rel="stylesheet"/>
+		
+</head>
+<body>
+						<!-- navigation -->
+<nav class="navbar navbar-fixed-top  lake-nav back-blue">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="index.html">
+	  <!--for text logo uncomment below line and comment img tag-->
+	  <!-- Lake-Property -->
+	  
+	  <!-- image logo -->
+	  <img src="img/icon2.png" alt="lake property logo" />
+	  </a>
+    </div>
+    <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class=""><a href="index.html">Home</a></li>
+        <li><a href="blog.html">Our Blog</a></li>
+        <li><a href="post blog.html">Post Blog</a></li> 
+      </ul>
+    </div>
+  </div>
+</nav>
+						<!-- //navigation -->
+
+
+<div class="container-fluid">
+<div class="row">
+	<div class="col-xs-12 blog-banner text-center">
+	<div class="blog-banner-overlay">
+		<p class=" text-white back-green">Post Blog</p>
+	</div>
+	</div>
+</div>
+</div>
+
+<div class="blog-leaf-body">
+
+<div class="container-fluid ">
+<div class="row ">
+
+<div class="col-xs-10 col-xs-offset-1  blog-header">
+<form>
+	<textarea name="editor1" id="editor1" rows="10" cols="80">
+		This is my textarea to be replaced with CKEditor.
+	</textarea>
+	<br>
+	<button class="btn btn-lg back-green text-white pull-right">Submit</button>
+</form>
+</div>
+</div>
+</div>
+
+<br><br><br>
+
+<!-- footer -->
+<div class="container-fluid">
+<div class="row lake-footer">
+
+<div class="col-xs-12 text-white text-center">
+<ul class="list-inline">
+	<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+	<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+	<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+	<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+</ul>
+<p>&copy; Copyright 2018 Lake-Property. All Rights Reserved. </p>
+</div>
+
+</div>
+</div>
+</div> <!--container-fluid-->
+
+</div> <!--leaf body-->
+
+
+
+ <!-- JS Files -->
+<script src="assets/bootstrap-3.3.7/js/jquery.min.js"></script>
+<script src="assets/bootstrap-3.3.7/js/popper.js"></script>
+<script src="assets/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+
+
+	
+ <!-- aos for scroll animation -->
+<script src="assets/aos-master/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+ <!-- Initialize the editor. -->
+<script src="assets/ckeditor/ckeditor.js"></script>
+<script>
+	CKEDITOR.replace( 'editor1', {
+			height: 300
+		} );
+</script>
+				
+
+</body>
+</html>
