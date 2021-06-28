@@ -2,7 +2,7 @@
 rgb(0,168,243) */
 /* green :
 rgb(92,154,3) */
-	
+
 *{
 	font-family:arial; /*font family for whole page data*/
 }
@@ -58,7 +58,7 @@ body{
 	width:27px;
 }
 
-	/* these properties for text logo not for image logo*/ 
+	/* these properties for text logo not for image logo*/
 .lake-nav .navbar-brand{
 	color:#fff;
 	font-size:25px;
@@ -102,18 +102,15 @@ body{
 }
 
 					/* carousel */
-.lake-carousel{
-	
+.lake-carousel {
 	/* position:fixed; */
 	/* top:55px; */
 	/* left:0; */
 	/* z-index:-2; */
-
-	width:100%;
 }
-.lake-carousel img{
+
+.lake-carousel img {
 	/* for carousel height */
-	width:100% !important;
 	height:610px !important;
 }
 
@@ -188,8 +185,8 @@ body{
 							/* Places */
 .place1{
 		/* image */
-	background:url(../../img/back1.jpg) ; 
-	-webkit-background-size:100% 100%; 
+	background:url(../../img/back1.jpg) ;
+	-webkit-background-size:100% 100%;
 	        background-size:100% 100%;
 	/* for height */
 	padding-top:146px;
@@ -252,7 +249,7 @@ body{
 		top:-24px;
 		z-index:0;
 	}
-	
+
 }
 
 
@@ -316,17 +313,17 @@ body{
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: #f1f1f1; 
+    background: #f1f1f1;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
     background: rgb(0,168,243)
-	
+
 }
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: rgb(92,154,3); 
+    background: rgb(92,154,3);
 }
 
 
@@ -340,6 +337,6 @@ body{
 }
 
 ::selection {
-  background:rgb(92,154,3) ; 
+  background:rgb(92,154,3) ;
     color:#fff;
 }
