@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="utf-8" />
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<title>Long Lake Property Owners Association</title>
+
+    <!--#include virtual="/includes.html" -->
+  </head>
+
+  <body>
+    <!--#include virtual="/body-top.html" -->
+
+  			<div class="container-fluid">
+  				<div class="row">
+  					<div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 text-center lake-heading back-blue" data-aos="fade-up" data-aos-duration="1200">
+  						LLPOA Links
+  					</div>
+  				</div> <!-- row -->
+
+  				<div class="row">
+            <div class="col-sm-12">
+              <ul>
+                <li><a href="http://longville.com">Longville Area Chamber of Commerce</a> has excellent area information.</li>
+                
+                <li>Utilities
+                  <ul><a href="https://arvig.com">Arvig: phone and internet</a></ul>
+                  <ul><a href="https://lakecountrypower.coop">Lake Country Power: Electricity</a></ul>
+                  <ul><a href="https://www.ferrellgas.com">Ferrelgas: Propane Services</a></ul>
+                </li>
+
+                <li>Marine and Dock Dealers
+                  <ul>
+                    <li><a href="https://www.muskyhousemarine.com">Muskie House</a></li>
+                    <li><a href="https://www.wheelermarine.com">Wheeler Marine</a></li>
+                    <li><a href="http://www.remercustomdocks.com">Remer Custom Docks</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+  				</div> <!-- row -->
+
+  			</div> <!-- container-fluid -->
+  			<!-- //main content -->
+
+<!--#include virtual="/body-bottom.html" -->
+  </body>
+</html>

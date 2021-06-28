@@ -15,17 +15,13 @@
   			<div class="container-fluid">
   				<div class="row">
   					<div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 text-center lake-heading back-blue" data-aos="fade-up" data-aos-duration="1200">
-  						Welcome to Long Lake!
+  						LLPOA Newsletters
   					</div>
   				</div> <!-- row -->
 
   				<div class="row">
             <div class="col-sm-12">
-              <p>This is the main text. I'm not sure what to write.</p>
-              <p>This is the main text. I'm not sure what to write.</p>
-              <p>This is the main text. I'm not sure what to write.</p>
-              <p>This is the main text. I'm not sure what to write.</p>
-              <p>This is the main text. I'm not sure what to write.</p>
+              <p>We need to include all the past newsletters.</p>
             </div>
   				</div> <!-- row -->
 
