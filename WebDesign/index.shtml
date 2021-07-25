@@ -21,11 +21,24 @@
 
   				<div class="row">
             <div class="col-sm-12">
-              <p>This is the main text. I'm not sure what to write.</p>
-              <p>This is the main text. I'm not sure what to write.</p>
-              <p>This is the main text. I'm not sure what to write.</p>
-              <p>This is the main text. I'm not sure what to write.</p>
-              <p>This is the main text. I'm not sure what to write.</p>
+              <p>Welcome to Long Lake!</p>
+              <p>This is the web home of the Long Lake Property Owners Association, Longville, MN. The site is still
+                under construction with lots planned. For now, we have newsletters going back to 2012. You can help us
+                out if you have older newsletters, suggestions for more links, or if you just would like to help write
+                some of the content.</p>
+
+              <p>If you're a better web designer than our programmer (Joe), then he'd love to hear from you.
+                I promise you -- you own't offend him. See his contact info in the newer newsletters.</p>
+
+              <h2>Latest news in The Link</h2>
+                <ul>
+                  <li>Saturday, August 14 -- Long Lake Property Owners Assoc. Annual Meeting – Longville Pavilion.
+                    This is the same weekend as the Northwood's Arts Council Annual Art and Book Festival in
+                    Hackensack, so it's a great weekend to come to the lake.</li>
+                  <li>2021 Walleye stocking program is complete.</li>
+                  <li>Annual membership is only $25. Information is in the newsletter.</li>
+                </ul>
+
             </div>
   				</div> <!-- row -->
 
