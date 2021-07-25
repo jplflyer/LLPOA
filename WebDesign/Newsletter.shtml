@@ -4,8 +4,7 @@
   	<meta charset="utf-8" />
   	<meta http-equiv="X-UA-Compatible" content="IE=edge">
   	<meta name="viewport" content="width=device-width, initial-scale=1">
-  	<title>Long Lake Property Owners Association</title>
-
+  	<title>LLPOA: The Link</title>
     <!--#include virtual="/includes.html" -->
   </head>
 
@@ -21,7 +20,70 @@
 
   				<div class="row">
             <div class="col-sm-12">
-              <p>We need to include all the past newsletters.</p>
+              <ul>
+                <li>2021
+                  <ul>
+                    <li><a href="/Newsletters/2021-Summer.pdf">Summer</a>
+                    <li><a href="/Newsletters/2021-Spring.pdf">Spring</a>
+                  </ul>
+                </li>
+                <li>2020
+                  <ul>
+                    <li><a href="/Newsletters/2020-Summer.pdf">Summer</a>
+                  </ul>
+                </li>
+                <li>2019
+                  <ul>
+                    <li><a href="/Newsletters/2019-Summer.pdf">Summer</a>
+                    <li><a href="/Newsletters/2019-Winter.pdf">Spring</a>
+                  </ul>
+                </li>
+                <li>2018
+                  <ul>
+                    <li><a href="/Newsletters/2018-Summer-Presidents-Letter.pdf">Summer President's Letter</a>
+                    <li><a href="/Newsletters/2018-Spring.pdf">Spring</a>
+                  </ul>
+                </li>
+                <li>2017
+                  <ul>
+                    <li><a href="/Newsletters/2017-Spring.pdf">Spring</a>
+                  </ul>
+                </li>
+                <li>2016
+                  <ul>
+                    <li><a href="/Newsletters/2016-Spring.pdf">Spring</a>
+                  </ul>
+                </li>
+                <li>2015
+                  <ul>
+                    <li><a href="/Newsletters/2015-Spring.pdf">Spring</a>
+                  </ul>
+                </li>
+                <li>2014
+                  <ul>
+                    <li><a href="/Newsletters/2014-Fall.pdf">Fall</a>
+                    <li><a href="/Newsletters/2014-Summer.pdf">Summer</a>
+                    <li><a href="/Newsletters/2014-Spring.pdf">Spring</a>
+                  </ul>
+                </li>
+                <li>2013
+                  <ul>
+                    <li><a href="/Newsletters/2013-Fall.pdf">Fall</a>
+                    <li><a href="/Newsletters/2013-Summer.pdf">Summer</a>
+                    <li><a href="/Newsletters/2013-Spring.pdf">Spring</a>
+                    <li><a href="/Newsletters/2013-Winter.pdf">Winter</a>
+                  </ul>
+                </li>
+                <li>2012
+                  <ul>
+                    <li><a href="/Newsletters/2012-Fall.pdf">Fall</a>
+                    <li><a href="/Newsletters/2012-Summer.pdf">Summer</a>
+                    <li><a href="/Newsletters/2012-Spring.pdf">Spring</a>
+                    <li><a href="/Newsletters/2012-Winter.pdf">Winter</a>
+                  </ul>
+                </li>
+
+              </ul>
             </div>
   				</div> <!-- row -->
 
