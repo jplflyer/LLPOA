@@ -21,7 +21,15 @@
 
   				<div class="row">
             <div class="col-sm-12">
-              <p>Articles on keeping the lake quality high.</p>
+              <center><img src="/img/GTLO.png" /></img>
+              <h2>Get the Lead Out</h2>
+              <p>Get the Lead Out is a program that tries to raise awareness of the
+                dangers, especially to loons, associated with lead tackle used
+                in fishing.</p>
+              <ul>
+                <li><a href="/GTLO-FactSheet.pdf">Fact Sheet</a></li>
+                <li><a href="/GTLO-FAQ.pdf">FAQ</a></li>
+              </ul>
             </div>
   				</div> <!-- row -->
 
