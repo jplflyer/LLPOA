@@ -23,11 +23,24 @@
             <div class="col-sm-12">
               <ul>
                 <li><a href="http://longville.com">Longville Area Chamber of Commerce</a> has excellent area information.</li>
-                
+
+                <li>Email Addresses
+                  <ul>
+                    <li>President: <a href="mailto:president@llpoa.org">president@llpoa.org</a>
+                    <li>Vice-President: <a href="mailto:vice-president@llpoa.org">vice-president@llpoa.org</a>
+                    <li>Secretary: <a href="mailto:secretary@llpoa.org">secretary@llpoa.org</a>
+                    <li>Treasurer: <a href="mailto:treasurer@llpoa.org">treasurer@llpoa.org</a>
+                    <li>Invasive Species: <a href="mailto:ais@llpoa.org">ais@llpoa.org</a>
+                    <li>Bouys: <a href="mailto:buoys@llpoa.org">buoys@llpoa.org</a>
+                    <li>WebMaster: <a href="mailto:webmaster@llpoa.org">webmaster@llpoa.org</a>
+                  </ul>
+                </li>
                 <li>Utilities
-                  <ul><a href="https://arvig.com">Arvig: phone and internet</a></ul>
-                  <ul><a href="https://lakecountrypower.coop">Lake Country Power: Electricity</a></ul>
-                  <ul><a href="https://www.ferrellgas.com">Ferrelgas: Propane Services</a></ul>
+                  <ul>
+                    <li><a href="https://arvig.com">Arvig: phone and internet</a></li>
+                    <li><a href="https://lakecountrypower.coop">Lake Country Power: Electricity</a></li>
+                    <li><a href="https://www.ferrellgas.com">Ferrelgas: Propane Services</a></li>
+                  </ul>
                 </li>
 
                 <li>Marine and Dock Dealers
